@@ -18,14 +18,14 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: "/3d-portfolio/images/ideas.svg" },
+  { text: "Concepts", imgPath: "/3d-portfolio/images/concepts.svg" },
+  { text: "Designs", imgPath: "/3d-portfolio/images/designs.svg" },
+  { text: "Code", imgPath: "/3d-portfolio/images/code.svg" },
+  { text: "Ideas", imgPath: "/3d-portfolio/images/ideas.svg" },
+  { text: "Concepts", imgPath: "/3d-portfolio/images/concepts.svg" },
+  { text: "Designs", imgPath: "/3d-portfolio/images/designs.svg" },
+  { text: "Code", imgPath: "/3d-portfolio/images/code.svg" },
 ];
 
 const counterItems = [
@@ -148,8 +148,8 @@ const techStackIcons = [
 const expCards = [
   {
     review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    imgPath: "/3d-portfolio/images/exp1.png",
+    logoPath: "/3d-portfolio/images/logo1.png",
     title: "Frontend Developer",
     date: "January 2023 - Present",
     responsibilities: [
@@ -160,8 +160,8 @@ const expCards = [
   },
   {
     review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    imgPath: "/3d-portfolio/images/exp2.png",
+    logoPath: "/3d-portfolio/images/logo2.png",
     title: "Full Stack Developer",
     date: "June 2020 - December 2023",
     responsibilities: [
@@ -172,8 +172,8 @@ const expCards = [
   },
   {
     review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
+    imgPath: "/3d-portfolio/images/exp3.png",
+    logoPath: "/3d-portfolio/images/logo3.png",
     title: "React Native Developer",
     date: "March 2019 - May 2020",
     responsibilities: [
@@ -247,19 +247,19 @@ const testimonials = [
 const socialImgs = [
   {
     name: "insta",
-    imgPath: "/images/insta.png",
+    imgPath: "/3d-portfolio/images/insta.png",
   },
   {
     name: "fb",
-    imgPath: "/images/fb.png",
+    imgPath: "/3d-portfolio/images/fb.png",
   },
   {
     name: "x",
-    imgPath: "/images/x.png",
+    imgPath: "/3d-portfolio/images/x.png",
   },
   {
     name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    imgPath: "/3d-portfolio/images/linkedin.png",
   },
 ];
 
