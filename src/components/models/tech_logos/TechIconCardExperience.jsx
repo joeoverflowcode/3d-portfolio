@@ -11,7 +11,20 @@ const TechIconCardExperience = ({ model }) => {
       scene.scene.traverse((child) => {
         if (child.isMesh) {
           if (child.name === "Object_5") {
-            child.material = new THREE.MeshStandardMaterial({ color: "white" });
+            child.material = new THREE.MeshStandardMaterial({ color: "hotpink" });
+          }
+        }
+      });
+    }
+  }, [scene]);
+
+    useEffect(() => {
+    if (model.name === "Python Developer") {
+      // console.log(scene.scene)
+      scene.scene.traverse((child) => {
+        if (child.isMesh) {
+          if (child.name === "Object_3") {
+            child.material = new THREE.MeshStandardMaterial({ color: "hotpink" });
           }
         }
       });
@@ -48,7 +61,9 @@ const TechIconCardExperience = ({ model }) => {
         that make up the 3D model.
       */}
       <Float speed={5.5} rotationIntensity={0.5} floatIntensity={0.9}>
-        <group scale={model.scale} rotation={model.rotation}>
+        <group scale={model.scale} rotation={model.rotation}
+        position={model.name === "Ice Hockey" ? [1, -1, 0]: [0,0,0]}
+        >
           <primitive object={scene.scene} />
         </group>
       </Float>

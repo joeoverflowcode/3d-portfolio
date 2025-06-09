@@ -5,6 +5,7 @@ import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
+import ContactExperience from "../components/models/contact/ContactExperience";
 
 const Hero = () => {
   useGSAP(() => {
@@ -27,7 +28,7 @@ const Hero = () => {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
-                Shaping
+                Let's
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word, index) => (
@@ -46,8 +47,8 @@ const Hero = () => {
                   </span>
                 </span>
               </h1>
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+              <h1>Projects that Shape</h1>
+              <h1>Our Future</h1>
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
@@ -64,8 +65,13 @@ const Hero = () => {
 
         {/* RIGHT: 3D Model or Visual */}
         <figure>
-          <div className="hero-3d-layout">
+          {/* <div className="hero-3d-layout">
             <HeroExperience />
+          </div> */}
+          <div className="xl:col-span-7 min-h-96">
+            <div className="bg-[#cd7c2e] w-full h-full hover:cursor-grab rounded-3xl overflow-hidden">
+              <ContactExperience />
+            </div>
           </div>
         </figure>
       </div>
