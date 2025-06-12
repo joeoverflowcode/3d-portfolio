@@ -40,7 +40,7 @@ const TechStack = () => {
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
           title="Some of my hobbies"
-          sub="🤝 Fun Facts"
+          sub="🏄‍♂️ About Me"
         />
         <div className="tech-grid">
           {/* Loop through the techStackIcons array and create a component for each item. 
