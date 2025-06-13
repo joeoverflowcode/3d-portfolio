@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 
 import Computer from "./Computer";
 
-const ContactExperience = () => {
+const HeroExperience = () => {
   return (
     <Canvas shadows camera={{ position: [0, 3, 7], fov: 45 }}>
       <ambientLight intensity={0.5} color="#fff4e6" />
@@ -41,4 +41,4 @@ const ContactExperience = () => {
   );
 };
 
-export default ContactExperience;
+export default HeroExperience;
