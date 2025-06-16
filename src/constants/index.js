@@ -146,6 +146,19 @@ const hobbyIcons = [
 const expCards = [
   {
     review:
+      "Joe’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    imgPath: "/3d-portfolio/images/exp2.png",
+    logoPath: "/3d-portfolio/images/logo2.png",
+    title: "Freelance Developer",
+    date: "January 2023 - Present",
+    responsibilities: [
+      "Worked 1+ year with a Private Equity Firm providing technical services and digital products",
+      "Teamed up with a local marketing agency for code debugging and design solutions",
+      "Worked with various AI start-ups to consult and design front-end architecture solutions",
+    ],
+  },
+  {
+    review:
       "Joe brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/3d-portfolio/images/exp1.png",
     logoPath: "/3d-portfolio/images/logo1.png",
@@ -168,19 +181,6 @@ const expCards = [
       "Learned Core Web Develpment Concepts and Programming Principals",
       "Collaborated closely with Instructors and Peers to build full stack applications",
       "Coordinated and Presented Project Demo to peers, faculty members and recruit",
-    ],
-  },
-  {
-    review:
-      "Joe’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/3d-portfolio/images/exp2.png",
-    logoPath: "/3d-portfolio/images/logo2.png",
-    title: "Freelance Developer",
-    date: "January 2023 - Present",
-    responsibilities: [
-      "Worked 1+ year with a Private Equity Firm providing technical services and digital products",
-      "Teamed up with a local marketing agency for code debugging and design solutions",
-      "Worked with various AI start-ups to consult and design front-end architecture solutions",
     ],
   },
 ];

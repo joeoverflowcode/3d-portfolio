@@ -9,6 +9,7 @@ import FeatureCards from "./sections/FeatureCards";
 import Navbar from "./components/NavBar";
 import StarsCanvas from "./components/models/contact/Stars";
 import Hero from "./sections/Hero";
+import Contact from "./sections/Contact";
 
 const App = () => (
   <>
@@ -25,7 +26,7 @@ const App = () => (
     <TechStack />
     <Testimonials />
     <div className="relative z-0">
-      {/* <Contact /> */}
+      <Contact />
       <StarsCanvas />
     </div>
     <Footer />

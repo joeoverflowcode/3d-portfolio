@@ -17,7 +17,7 @@ body {
 
 section {
   width: 100dvw;
-  scroll-margin-top:7rem;
+  scroll-margin-top: 7rem;
 }
 
 @theme {
@@ -273,7 +273,7 @@ section {
 
   .hobby-grid {
     /* @apply grid xl:grid-cols-5 md:grid-cols-3 grid-cols-1 xl:gap-16 md:gap-10 gap-5 mt-16; */
-    @apply flex flex-row items-center justify-evenly gap-5 mt-10
+    @apply flex flex-row items-center justify-evenly gap-5 mt-10;
   }
 
   .hobby-icon-wrapper {
@@ -334,7 +334,7 @@ section {
 .wrapper {
   display: flex;
   flex-direction: column;
-  animation: wordSlider 4.5s infinite cubic-bezier(.9, .01, 0.3, 0.99);
+  animation: wordSlider 4.5s infinite cubic-bezier(0.9, 0.01, 0.3, 0.99);
 }
 
 @keyframes wordSlider {
@@ -371,10 +371,10 @@ section {
   background: linear-gradient(
     0deg,
     rgba(69, 222, 196, 0) 0%,
-    #fd5c79 25%,
-    #eb506f 37.51%,
-    #75b0ef 62.83%,
-    #6d45ce 92.91%
+    #4c99e1 25%,
+    #3b72e7 37.51%,
+    #6d45ce 62.83%,
+    #fd5c79 92.91%
   );
 }
 
