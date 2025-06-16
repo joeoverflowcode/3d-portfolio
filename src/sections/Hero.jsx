@@ -1,8 +1,8 @@
-import ContactExperience from "../components/models/hero/HeroExperience";
+import HeroExperience from "../components/models/hero/HeroExperience";
 import { words } from "../constants";
 import Button from "../components/Button";
 
-const Contact = () => {
+const Hero = () => {
   return (
     <section id="contact" className="flex-center section-padding">
       <div className="w-full h-full md:px-10 px-5">
@@ -108,7 +108,7 @@ const Contact = () => {
           </div>
           <div className="xl:col-span-7 min-h-96 ">
             <div className="bg-teal-800 w-full h-full hover:cursor-grab rounded-3xl overflow-hidden ">
-              <ContactExperience />
+              <HeroExperience />
             </div>
           </div>
         </div>
@@ -117,4 +117,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Hero;

@@ -110,7 +110,7 @@ const techStackImgs = [
   },
 ];
 
-const techStackIcons = [
+const hobbyIcons = [
   {
     name: "Running",
     modelPath: "/3d-portfolio/models/nike-shoe.glb",
@@ -120,7 +120,7 @@ const techStackIcons = [
   {
     name: "Surfing",
     modelPath: "/3d-portfolio/models/surfboard3.glb",
-    scale: 1.5,
+    scale: 1.4,
     rotation: [6, -Math.PI/7, 5],
   },
   // {
@@ -273,7 +273,7 @@ export {
   expLogos,
   testimonials,
   socialImgs,
-  techStackIcons,
+  hobbyIcons,
   techStackImgs,
   navLinks,
 };

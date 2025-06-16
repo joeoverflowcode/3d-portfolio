@@ -3,33 +3,8 @@ import { Canvas } from "@react-three/fiber";
 import { useEffect } from "react";
 import * as THREE from "three";
 
-const TechIconCardExperience = ({ model }) => {
+const HobbyCardExperience = ({ model }) => {
   const scene = useGLTF(model.modelPath);
-
-  useEffect(() => {
-    if (model.name === "Interactive Developer") {
-      scene.scene.traverse((child) => {
-        if (child.isMesh) {
-          if (child.name === "Object_5") {
-            child.material = new THREE.MeshStandardMaterial({ color: "hotpink" });
-          }
-        }
-      });
-    }
-  }, [scene]);
-
-    useEffect(() => {
-    if (model.name === "Python Developer") {
-      // console.log(scene.scene)
-      scene.scene.traverse((child) => {
-        if (child.isMesh) {
-          if (child.name === "Object_3") {
-            child.material = new THREE.MeshStandardMaterial({ color: "hotpink" });
-          }
-        }
-      });
-    }
-  }, [scene]);
 
   return (
     <Canvas>
@@ -60,7 +35,7 @@ const TechIconCardExperience = ({ model }) => {
         THREE.Group object contains all the objects (meshes, lights, etc)
         that make up the 3D model.
       */}
-      <Float speed={5.5} rotationIntensity={0.5} floatIntensity={0.9}>
+      <Float speed={3} rotationIntensity={1.5} floatIntensity={1}>
         <group scale={model.scale} rotation={model.rotation}
         position={model.name === "Ice Hockey" ? [1, -1, 0]: [0,0,0]}
         >
@@ -68,9 +43,9 @@ const TechIconCardExperience = ({ model }) => {
         </group>
       </Float>
 
-      <OrbitControls enableZoom={false} />
+      <OrbitControls enableZoom={false} enableRotate={false} enablePan={false}/>
     </Canvas>
   );
 };
 
-export default TechIconCardExperience;
+export default HobbyCardExperience;
