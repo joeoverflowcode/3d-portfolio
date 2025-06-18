@@ -143,6 +143,61 @@ const hobbyIcons = [
   },
 ];
 
+const experiences = [
+  {
+    title: "Freelance Developer",
+    company_name: "Bio Behavioral Institute | University of North Texas | Square 205",
+    icon: "/3d-portfolio/images/logo2.png",
+    iconBg: "#383E56",
+    date: "January 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "React Developer",
+    company_name: "Dallas Software Developers | Spring Cohort",
+    icon: "/3d-portfolio/images/logo1.png",
+    iconBg: "#E6DEDD",
+    date: "Jan 2025 - April 2025",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Javascript Student Developer",
+    company_name: "DevMountain | Strayer University",
+    icon: "/3d-portfolio/images/logo3.png",
+    iconBg: "#383E56",
+    date: "August 2023 - November 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+];
+
 const expCards = [
   {
     review:
@@ -269,6 +324,7 @@ export {
   abilities,
   logoIconsList,
   counterItems,
+  experiences,
   expCards,
   expLogos,
   testimonials,

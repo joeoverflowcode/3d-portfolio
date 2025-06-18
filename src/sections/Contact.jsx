@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import EarthCanvas  from "../components/models/contact/Earth";
+import CoffeeCanvas from "../components/models/contact/Coffee";
 import { slideIn, staggerContainer } from "../utils/motion";
 
 const Contact = () => {
@@ -126,9 +127,10 @@ const Contact = () => {
 
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
-          className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+          className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px] hover:cursor-grab'
         >
-          <EarthCanvas />
+          {/* <EarthCanvas /> */}
+          <CoffeeCanvas />
         </motion.div>
       </div>
     </motion.section>
