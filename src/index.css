@@ -40,6 +40,16 @@ section {
 }
 
 @layer components {
+
+
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
   .padding-x {
     @apply px-5 md:px-10;
   }
@@ -273,7 +283,7 @@ section {
 
   .hobby-grid {
     /* @apply grid xl:grid-cols-5 md:grid-cols-3 grid-cols-1 xl:gap-16 md:gap-10 gap-5 mt-16; */
-    @apply flex flex-row items-center justify-evenly gap-5 mt-10;
+    @apply flex md:flex-row flex-col items-center justify-evenly gap-5 mt-10;
   }
 
   .hobby-icon-wrapper {
@@ -414,6 +424,25 @@ section {
 .marquee-item {
   float: left;
 }
+  .marquee-item:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    bottom: -100%;
+    left: -100%;
+    background: linear-gradient(
+      to bottom,
+      rgba(229, 172, 142, 0),
+      rgba(255, 255, 255, 0.5) 50%,
+      rgba(229, 172, 142, 0)
+    );
+  }
+  /*This activates the shine once the button has been hovered*/
+  .marquee-item:hover::after,
+  button:focus::after {
+    animation: shine 1s forwards;
+  }
 @keyframes marquee {
   0% {
     left: 0;
@@ -423,6 +452,65 @@ section {
   }
 }
 /* marquee end */
+  .gradient-border {
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .gradient-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1.5px; /* Border width */
+    border-radius: 20px;
+    background: linear-gradient(
+      20deg,
+      #fdfdfd 0%,
+      rgba(253, 253, 253, 0) 100%
+    ); /* Gradient colors */
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+  }
+
+  .marquee-item:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    bottom: -100%;
+    left: -100%;
+    background: linear-gradient(
+      to bottom,
+      rgba(229, 172, 142, 0),
+      rgba(255, 255, 255, 0.5) 50%,
+      rgba(229, 172, 142, 0)
+    );
+  }
+  /*This activates the shine once the button has been hovered*/
+  .marquee-item:hover::after,
+  button:focus::after {
+    animation: shine 1s forwards;
+  }
+  .tech-stack-gradient-left-box {
+    background: rgb(16, 16, 16);
+    background: linear-gradient(
+      90deg,
+      rgb(0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.66) 53%,
+      rgba(2, 2, 2, 0) 100%
+    );
+  }
+  .tech-stack-gradient-right-box {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      -90deg,
+      rgb(4, 4, 4) 0%,
+      rgba(13, 13, 13, 0.66) 53%,
+      rgba(16, 16, 16, 0) 100%
+    );
+  }
 
 .card {
   --start: 0;
@@ -471,4 +559,10 @@ section {
 
 .card:hover::before {
   opacity: 1;
+}
+
+@keyframes shine {
+  100% {
+    transform: rotateZ(60deg) translate(1em, -15em);
+  }
 }

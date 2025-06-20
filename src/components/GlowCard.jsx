@@ -1,6 +1,7 @@
 import { useRef } from "react";
+import {motion} from "framer-motion"
 
-const GlowCard = ({ card, index, children }) => {
+const GlowCard = ({ card, index, children, ...motionProps }) => {
   // refs for all the cards
   const cardRefs = useRef([]);
 
@@ -27,10 +28,11 @@ const GlowCard = ({ card, index, children }) => {
 
   // return the card component with the mouse move event
   return (
-    <div
+    <motion.div
       ref={(el) => (cardRefs.current[index] = el)}
       onMouseMove={handleMouseMove(index)}
       className="card card-border timeline-card rounded-xl p-10 mb-5 break-inside-avoid-column"
+      {...motionProps}
     >
       <div className="glow"></div>
       <div className="flex items-center gap-1 mb-5">
@@ -42,7 +44,7 @@ const GlowCard = ({ card, index, children }) => {
         <p className="text-white-50 text-lg">{card.review}</p>
       </div>
       {children}
-    </div>
+    </motion.div>
   );
 };
 

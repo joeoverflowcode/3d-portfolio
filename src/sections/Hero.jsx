@@ -4,7 +4,7 @@ import Button from "../components/Button";
 
 const Hero = () => {
   return (
-    <section id="contact" className="flex-center section-padding">
+    <section id="hero" className="flex-center section-padding">
       <div className="w-full h-full md:px-10 px-5">
         <div className="grid-12-cols">
           <div className="xl:col-span-5">
@@ -99,7 +99,7 @@ const Hero = () => {
                 </p>
 
                 <Button
-                  text="See My Work"
+                  text="Interactative Model"
                   className="md:w-80 md:h-16 w-60 h-12 pb-20"
                   id="counter"
                 />
@@ -107,7 +107,7 @@ const Hero = () => {
             </header>
           </div>
           <div className="xl:col-span-7 min-h-96 ">
-            <div className="bg-teal-800 w-full h-full hover:cursor-grab rounded-3xl overflow-hidden ">
+            <div className="bg-[#1d1836] w-full h-full hover:cursor-grab rounded-3xl overflow-hidden ">
               <HeroExperience />
             </div>
           </div>

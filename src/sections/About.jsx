@@ -38,7 +38,14 @@ const TechStack = () => {
   return (
     <section id="about" className="flex-center section-padding">
       <div className="w-full h-full md:px-10 px-5">
-        <TitleHeader title="Some of my hobbies" sub="🏄‍♂️ About Me" />
+        <TitleHeader title="My Hobbies" sub="🏄‍♂️ About Me" />
+        <div className="py-10">
+          <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+            Among web development, I like to spend time outdoors developing
+            skills and other interests. I've come to find that these other
+            interests can sometimes strengthen the ties I have with other developers!
+          </p>
+        </div>
         <div className="hobby-grid">
           {/* Loop through the hobbyIcons array and create a component for each item. 
               The key is set to the name of the tech stack icon, and the classnames are set to 

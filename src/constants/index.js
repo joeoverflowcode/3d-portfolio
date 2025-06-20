@@ -4,15 +4,15 @@ const navLinks = [
   //   link: "#work",
   // },
   {
+    name: "Skills",
+    link: "#skills",
+  },
+  {
     name: "Experience",
     link: "#experience",
   },
   {name: "About",
     link: "#about"
-  },
-  {
-    name: "Skills",
-    link: "#skills",
   },
   {
     name: "Testimonials",
@@ -116,12 +116,14 @@ const hobbyIcons = [
     modelPath: "/3d-portfolio/models/nike-shoe.glb",
     scale: .03,
     rotation: [0, 0, 0],
+    position: [0,1,0],
   },
   {
     name: "Surfing",
     modelPath: "/3d-portfolio/models/surfboard3.glb",
     scale: 1.4,
     rotation: [6, -Math.PI/7, 5],
+    position: [0,0,0],
   },
   // {
   //   name: "Backend Developer",
@@ -140,6 +142,7 @@ const hobbyIcons = [
     modelPath: "/3d-portfolio/models/ice-skate3.glb",
     scale: .6,
     rotation: [-Math.PI/20, -Math.PI/8, 1],
+    position: [1, -1, 0],
   },
 ];
 
@@ -319,6 +322,47 @@ const socialImgs = [
   },
 ];
 
+ 
+const iconsList = [
+  {
+    name: "html",
+    image: "/3d-portfolio/images/html.svg",
+  },
+  {
+    name: "css",
+    image: "/3d-portfolio/images/css.svg",
+  },
+  {
+    name: "javascript",
+    image: "/3d-portfolio/images/js.svg",
+  },
+  {
+    name: "react",
+    image: "/3d-portfolio/images/react.svg",
+  },
+  {
+    name: "typescript",
+    image: "/3d-portfolio/images/ts.svg",
+  },
+  {
+    name: "github",
+    image: "/3d-portfolio/images/github.svg",
+  },
+  {
+    name: "gsap",
+    image: "/3d-portfolio/images/gsap.svg",
+  },
+  {
+    name: "threejs",
+    image: "/3d-portfolio/images/threejs.svg",
+  },
+  {
+    name: "figma",
+    image: "/3d-portfolio/images/figma.svg",
+  },
+];
+
+
 export {
   words,
   abilities,
@@ -332,4 +376,5 @@ export {
   hobbyIcons,
   techStackImgs,
   navLinks,
+  iconsList
 };

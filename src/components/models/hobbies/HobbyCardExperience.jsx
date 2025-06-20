@@ -37,7 +37,7 @@ const HobbyCardExperience = ({ model }) => {
       */}
       <Float speed={3} rotationIntensity={1.5} floatIntensity={1}>
         <group scale={model.scale} rotation={model.rotation}
-        position={model.name === "Ice Hockey" ? [1, -1, 0]: [0,0,0]}
+        position={model.position}
         >
           <primitive object={scene.scene} />
         </group>

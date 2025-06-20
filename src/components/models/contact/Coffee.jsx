@@ -53,8 +53,8 @@ const CoffeeCanvas = () => {
           minPolarAngle={Math.PI / 2}
         />
         <Coffee />
-        <axesHelper args={[5]} />
-        <gridHelper args={[10, 10]} />
+        {/* <axesHelper args={[5]} />
+        <gridHelper args={[10, 10]} /> */}
         <Preload all />
       </Suspense>
     </Canvas>
