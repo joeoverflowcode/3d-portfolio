@@ -10,11 +10,9 @@ const Coffee = () => {
   return (
     <primitive
       object={coffee.scene}
-      scale={5}
-      //   position-y={-5}
-      rotation-y={0}
+      scale={4.5}
       position={[0, -3, 0]}
-      rotation={[0.55, 0, 0]}
+      rotation={[0.45, 0, 0]}
     />
   );
 };

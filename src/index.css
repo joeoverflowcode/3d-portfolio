@@ -96,7 +96,7 @@ section {
   }
 
   .hero-text {
-    @apply flex flex-col justify-center md:text-[46px] text-[32px] font-semibold relative z-50 pointer-events-none;
+    @apply flex flex-col justify-center xl:text-[44px] text-[54px] font-semibold relative z-50 pointer-events-none;
     img {
       @apply size-8 md:size-10 object-contain;
     }
@@ -419,7 +419,7 @@ section {
   height: 100%;
   position: absolute;
   overflow: hidden;
-  animation: marquee 60s linear infinite;
+  animation: marquee 20s linear infinite;
 }
 .marquee-item {
   float: left;
@@ -499,7 +499,7 @@ section {
       90deg,
       rgb(0, 0, 0) 0%,
       rgba(0, 0, 0, 0.66) 53%,
-      rgba(2, 2, 2, 0) 100%
+      rgba(0, 0, 0, 0) 100%
     );
   }
   .tech-stack-gradient-right-box {
@@ -507,8 +507,8 @@ section {
     background: linear-gradient(
       -90deg,
       rgb(4, 4, 4) 0%,
-      rgba(13, 13, 13, 0.66) 53%,
-      rgba(16, 16, 16, 0) 100%
+      rgba(0, 0, 0, 0.66) 53%,
+      rgba(0, 0, 0, 0) 100%
     );
   }
 

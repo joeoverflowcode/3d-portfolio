@@ -125,18 +125,6 @@ const hobbyIcons = [
     rotation: [6, -Math.PI/7, 5],
     position: [0,0,0],
   },
-  // {
-  //   name: "Backend Developer",
-  //   modelPath: "/3d-portfolio/models/warrior_running_shoe.glb",
-  //   scale: 5,
-  //   rotation: [0, -Math.PI / 2, 0],
-  // },
-  // {
-  //   name: "Interactive Developer",
-  //   modelPath: "/3d-portfolio/models/three.js-transformed.glb",
-  //   scale: 0.05,
-  //   rotation: [0, 0, 0],
-  // },
   {
     name: "Ice Hockey",
     modelPath: "/3d-portfolio/models/ice-skate3.glb",
@@ -154,23 +142,23 @@ const experiences = [
     iconBg: "#383E56",
     date: "January 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked 1+ year with a Private Equity Firm providing technical services and digital products",
+      "Teamed up with a DFW marketing agency for code debugging and architecture solutions",
+      "Worked with 2 AI start-ups to consult and design front-end interfaces",
     ],
   },
   {
     title: "React Developer",
     company_name: "Dallas Software Developers | Spring Cohort",
     icon: "/3d-portfolio/images/logo1.png",
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Jan 2025 - April 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with 8 developers and 3 leads to build and deploy full-stack MVP shared on a GitHub repo",
+      "Designed UI/UX architecture with Figma and contributed 23 enterprise-standard frontend commits",
+      "Produced and narrated a 5-minute demo video of project for both technical and business audiences",
+      "Presentation to 200 live and remote audience of 1500",
+      "Participated in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
@@ -180,25 +168,12 @@ const experiences = [
     iconBg: "#383E56",
     date: "August 2023 - November 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Learned Core Web Develpment Concepts and JS Programming Principals",
+      "Collaborated closely with Instructors and Peers to build full stack applications",
+      "Coordinated and Presented Project Demo to peers, faculty members and recruiters",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
 
 const expCards = [
@@ -223,8 +198,9 @@ const expCards = [
     title: "Dallas Software Developers Spring Cohort",
     date: "January 2025 - April 2025",
     responsibilities: [
-      "Worked Hard",
-      "22 Enterprise Level github commits",
+      "Collaborated with 8 developers and 3 leads to build and deploy full-stack MVP shared on a GitHub repo",
+      "Designed UI/UX architecture with Figma and contributed 23 enterprise-standard frontend commits",
+      "Produced and narrated a 5-minute demo video of project for both technical and business audiences",
       "Presentation to 200 live and remote audience of 1500",
     ],
   },
@@ -236,9 +212,9 @@ const expCards = [
     title: "Dev Mountain Web Development Bootcamp",
     date: "August 2023 - December 2023",
     responsibilities: [
-      "Learned Core Web Develpment Concepts and Programming Principals",
+      "Learned Core Web Develpment Concepts and JS Programming Principals",
       "Collaborated closely with Instructors and Peers to build full stack applications",
-      "Coordinated and Presented Project Demo to peers, faculty members and recruit",
+      "Coordinated and Presented Project Demo to peers, faculty members and recruiters",
     ],
   },
 ];
